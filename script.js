@@ -135,7 +135,7 @@ function resetKeyboard() {
 window.addEventListener('keydown', handleKeyDown);
 window.addEventListener('keyup', handleKeyUp);
 
-// --- CMD Launcher Function ---
+
 async function launchCmd(type) {
     try {
         const res = await fetch(`/api/open-cmd/${type}`);
@@ -243,7 +243,7 @@ function fetchAllData() {
     showToast("Dashboard refreshed");
 }
 
-// --- BATTERY REPORT HTML FILE PARSER ---
+
 function processBatteryReport(event) {
     const file = event.target.files[0];
     if (!file) return;
@@ -310,7 +310,7 @@ function processBatteryReport(event) {
     reader.readAsText(file);
 }
 
-// --- Display Test Logic ---
+
 const colors = ['#0000FF', '#00FF00', '#FF0000', '#FFFFFF', '#000000'];
 let colorIdx = 0;
 
@@ -343,7 +343,7 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-// --- Audio Test Logic ---
+
 function playTone(channel) {
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     const osc = audioCtx.createOscillator();
@@ -366,6 +366,6 @@ function playTone(channel) {
     }, 500);
 }
 
-// Init App
+
 renderKeyboard();
 fetchAllData();
