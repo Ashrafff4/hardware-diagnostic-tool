@@ -1,4 +1,3 @@
-// --- Custom Toast System (No intrusive Browser Alerts) ---
 function showToast(message, type = 'info') {
     const container = document.getElementById('toastContainer');
     const toast = document.createElement('div');
@@ -19,7 +18,7 @@ function showToast(message, type = 'info') {
     }, 3000);
 }
 
-// --- KEYBOARD TESTER ENGINE ---
+
 const keyboardStructure = [
     [
         { code: 'Escape', label: 'Esc', w: 1 },
@@ -147,13 +146,13 @@ async function launchCmd(type) {
     }
 }
 
-// --- Copy Command Function ---
+
 function copyCommand(text) {
     navigator.clipboard.writeText(text);
     showToast(`Copied: "${text}"`, 'success');
 }
 
-// --- Camera Feed Diagnostic ---
+
 let camStreamInstance = null;
 async function toggleCamera(start) {
     const video = document.getElementById('camStream');
@@ -180,7 +179,7 @@ async function toggleCamera(start) {
     }
 }
 
-// --- Dashboard Data Handlers ---
+
 async function loadStorage() {
     try {
         const res = await fetch('/api/storage');
