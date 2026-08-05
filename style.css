@@ -1,4 +1,3 @@
-/* Pro Dark Glass Background */
 body {
     background: #090d16;
     background-image: 
@@ -8,7 +7,7 @@ body {
     background-attachment: fixed;
 }
 
-/* Pro Glass Containers */
+
 .pro-glass {
     background: rgba(15, 23, 42, 0.55);
     backdrop-filter: blur(20px) saturate(180%);
@@ -25,7 +24,7 @@ body {
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
-/* Dynamic Glass Buttons */
+
 .glass-btn {
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
@@ -38,7 +37,7 @@ body {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
-/* Keyboard Styling */
+
 .fullscreen-test {
     display: none;
     position: fixed;
