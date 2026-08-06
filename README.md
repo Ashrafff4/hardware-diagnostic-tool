@@ -32,7 +32,7 @@ An all-in-one, browser-based hardware and system diagnostic suite. Designed with
 
 ---
 
-##  Built With
+##  Built With 
 
 * **HTML5 & Vanilla JavaScript** (Web Audio API, WebGL, WebRTC, Battery API)
 * **Tailwind CSS** (Glassmorphism styling)
