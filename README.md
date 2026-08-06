@@ -6,7 +6,6 @@ An all-in-one, browser-based hardware and system diagnostic suite. Designed with
 
 ##  Preview
 
-
 ![System Diagnostics Suite Preview](https://github.com/user-attachments/assets/23d93554-dfd0-4734-833e-732165ba2877)
 
 ---
