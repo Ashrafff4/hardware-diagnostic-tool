@@ -3,6 +3,7 @@
 An all-in-one, browser-based hardware and system diagnostic suite. Designed with a clean glassmorphism UI, this tool helps users perform real-time diagnostic checks on keyboards, displays, speakers, webcams, battery health, without installing any software.
 
 ---
+
 ##  Preview
 
 ![System Diagnostics Suite Preview](https://github.com/user-attachments/assets/23d93554-dfd0-4734-833e-732165ba2877)
