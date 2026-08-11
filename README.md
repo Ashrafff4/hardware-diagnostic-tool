@@ -10,6 +10,7 @@ An all-in-one, browser-based hardware and system diagnostic suite. Designed with
 
 ---
 
+
 ##  Key Features
 
 * ** Keyboard & Chattering Tester:** Interactive virtual keyboard map that highlights active keys in real-time and detects key chattering/double-press faults (<150ms).
