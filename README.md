@@ -1,4 +1,3 @@
-
 #  Hardware Diagnostic Tool
 
 An all-in-one, browser-based hardware and system diagnostic suite. Designed with a clean glassmorphism UI, this tool helps users perform real-time diagnostic checks on keyboards, displays, speakers, webcams, battery health, without installing any software.
