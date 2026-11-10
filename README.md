@@ -42,4 +42,3 @@ An all-in-one, browser-based hardware and system diagnostic suite. Designed with
 ##  License
 
 This project is open-source and available under the [MIT License](LICENSE).
-end
